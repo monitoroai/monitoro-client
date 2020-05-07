@@ -32,4 +32,3 @@ def health(authorized: bool = build_check_authentication_header(settings.api_key
 
 if __name__ == "__main__":
     uvicorn.run(app, host=settings.host, port=settings.port)
-
